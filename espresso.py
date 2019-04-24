@@ -56,6 +56,12 @@ def Get_Truth_Table(LEN):
     tt.append(e)
     return tt
 
+"""
+This is a helper function, existant in case I want to
+expand the code and allow different iteration over the inputs.
+If this returned randomly, the code would no longer necessarily
+output predictable results. 
+"""
 def _Provide_Index(dim):
     return range(0, dim)
 
@@ -277,7 +283,12 @@ def Intersect( list_of_maps ):
         
     return lom
             
-        
+"""
+This is a helper function, existant in case I want to
+expand the code and allow different iteration over the inputs.
+If this returned randomly, the code would no longer necessarily
+output predictable results. 
+"""
 def Select_Minterm(minterms2bln):
     return list(minterms2bln.keys())[0]
             
